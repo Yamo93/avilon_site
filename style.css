@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top-main {
+    width: 100%;
+    height: 701px;
+    background: #ffb347;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.top-nav {
+    width: 100%;
+    height: 100px;
+
+}
+
+.top-logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.top-nav ul {
+    float: right;
+    margin-top: 25px;
+    margin-right: 15%;
+    width: 35%;
+    list-style: none;
+}
+
+.top-nav li {
+    margin-left: 5%;
+    float: left;
+}
+
+/* side menu */
+.hamburger {
+  position: absolute;
+  top: 25px;
+  right: 5%;
+  color: #fff;
+  font-size: 2em;
+}
+
+#slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+#slide a {
+  color: #ffb347;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#slide .btn-close {
+  font-size: 2em;
+}
+
+.front-main {
+    width: 100%;
+
+    height: 301px;
+    position: relative;
+}
+
+.front-main h1 {
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+
+.front-main p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.front-main .start-btn {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    border: 1px solid #fff;
+    padding: 9px 17px;
+    border-radius: 250px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------ ABOUT US -------------------------------- */
+
+.about-us {
+    width: 100%;
+    height: 701px;
+}
+
+.top-about {
+    width: 100%;
+    height: 150px;
+}
+
+.top-h1 {
+    padding-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.border {
+    width: 5%;
+    border: 2px solid #ffb347;
+    margin: 15px auto;
+}
+
+.top-about p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.bottom-about {
+    width: 100%;
+    height: 551px;
+}
+
+.left-about {
+    margin-top: 35px;
+    width: 47%;
+    float: left;
+}
+
+.left-about img {
+    width: 100%;
+    height: 451px;
+}
+
+.right-about {
+    margin-top: 35px;
+    width: 47%;
+    float: right;
+}
+
+.right-about h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.right-about h3 {
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.right-about p {
+    margin-bottom: 25px;
+}
+
+.right-about .last-p {
+    margin-top: 40px;
+}
+
+.right-about ul {
+    list-style: none;
+}
+
+.right-about li {
+    margin-bottom: 10px;
+}
+
+.check-crc {
+    color: #ffb347;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+/* ------------------------------------ FEATURES -------------------------------- */
+
+.features {
+    width: 100%;
+    height: 701px;
+}
+
+.features h1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.feat-tbl {
+    display: table;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.top-row, .bottom-row {
+    display: table-row;
+    width: 100%;
+    height: 250px;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    display: table-cell;
+    width: 50%;
+}
+
+.top-left h2, .top-right h2, .bottom-left h2, .bottom-right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.top-left p, .top-right p, .bottom-left p, .bottom-right p {
+    text-align: center;
+    margin: 10px 5%;
+}
+
+.features .feat-icn {
+    margin-left: 45%;
+    font-size: 4rem;
+    margin-bottom: -10px;
+    color: #ffb347;
+}
+
+/* ------------------------------------ CONTACT -------------------------------- */
+
+.contact {
+    width: 100%;
+    height: 701px;
+    position: relative;
+}
+
+.contact h2 {
+    margin-top: 50px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    color: #ffb347;
+}
+
+.contact p {
+    margin-left: 25%;
+    margin-top: 15px;
+    line-height: 150%;
+}
+
+.info {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.details {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+
+.details p:nth-child(1) {
+    margin-top: 50px;
+    line-height: 250%;
+    margin-left: 0;
+}
+
+.details p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.details p {
+    margin-left: 0;
+    text-align: center;
+}
+
+.details .cont-ic {
+    margin-right: 5%;
+    font-size: 2.5rem;
+    color: #ffb347;
+}
+
+.form {
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+
+.name {
+    width: 45%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 92%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.subject {
+    width: 45%;
+    height: 30px;
+}
+
+textarea {
+    width: 92%;
+}
+
+button {
+    outline: none;
+    height: 40px;
+    padding: 6px 15px;
+    background: #ffb347;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border-radius: 250px;
+    border: 1px solid #ffb347;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    clear: both;
+    margin-top: 50px;
+}
+
+footer p {
+    position: absolute;
+    left: 15%;
+    bottom: 10px;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+
+@media (max-width: 568px) {
+  .hamburger {display: inline;}
+  .top-nav ul li.nav-list {display: none;}
+}
+
+@media (min-width: 568px) {
+  .hamburger {display: none;}
+}

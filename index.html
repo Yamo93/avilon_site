@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Avilon</title>
+</head>
+<body>
+
+    <main class="top-main">
+        <nav class="top-nav">
+                <h2 class="top-logo">Avilon</h2>
+            <ul>
+                <li class="nav-list">Home</li>
+                <li class="nav-list">About Us</li>
+                <li class="nav-list">Features</li>
+                <li class="nav-list">Pricing</li>
+                <li class="nav-list">Contact Us</li>
+                <a href="#" class="hamby"><i class="fas fa-align-justify hamburger" id="hamburger" onclick="openSlide()"></i></a>
+            </ul>
+        </nav>
+
+        <div class="slide-menu" id="slide">
+          <a href="#" class="btn-close" onclick="closeSlide()">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="front-main">
+            <h1>Welcome to Avilon</h1>
+            <p>We are a team of talented designers making websites with Bootstrap</p>
+            <a href="#" class="start-btn">Get Started</a>
+        </div>
+    </main>
+
+    <section class="about-us">
+        <div class="top-about">
+            <h1 class="top-h1">About Us</h1>
+            <div class="border"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore</p>
+        </div>
+        <div class="bottom-about">
+            <div class="left-about">
+                <img src="img/lauren-mancke-60627.jpg">
+            </div>
+            <div class="right-about">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
+                <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+                <ul>
+                    <li><i class="fa fa-check-circle check-crc" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur.</li>
+                    <li><i class="fa fa-check-circle check-crc" aria-hidden="true"></i>Sed do eiusmod
+tempor incididunt ut labore et dolore magna.</li>
+                    <li><i class="fa fa-check-circle check-crc" aria-hidden="true"></i>Laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor.</li>
+                </ul>
+                <p class="last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h1 class="top-h1">Product Features</h1>
+        <div class="border"></div>
+        <div class="feat-tbl">
+            <div class="top-row">
+                <div class="top-left">
+                    <i class="fa fa-file-code-o feat-icn" aria-hidden="true"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="top-right">
+                    <i class="fa fa-keyboard-o feat-icn" aria-hidden="true"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="bottom-left">
+                    <i class="fa fa-credit-card feat-icn" aria-hidden="true"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="bottom-right">
+                    <i class="fa fa-suitcase feat-icn" aria-hidden="true"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="contact">
+        <h1 class="top-h1">Contact Us</h1>
+        <div class="border"></div>
+        <div class="info" id="theID">
+        <h2>Avilon</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="details">
+            <p><i class="fa fa-map-marker cont-ic" aria-hidden="true"></i>A108 Adam Street<br>New York, NY 535022</p>
+            <p><i class="fa fa-envelope-o cont-ic" aria-hidden="true"></i>info@example.com</p>
+            <p><i class="fa fa-phone cont-ic" aria-hidden="true"></i>+1 5589 39538 242</p>
+        </div>
+
+        <div class="form">
+            <input type="text" class="name" placeholder="Your Name">
+            <input type="text" class="subject" placeholder="Your E-Mail">
+            <input type="email" class="email" placeholder="Subject">
+            <textarea cols="50" rows="10"></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+
+        <footer>
+            <p>&#9400; Copyright <span>Avilon.</span> All Rights Reserved.</p>
+        </footer>
+
+    </section>
+    <script>
+
+        function openSlide () {
+
+          document.getElementById("slide").style.width = "100%";
+        }
+
+        function closeSlide () {
+          document.getElementById("slide").style.width = "0";
+        }
+    </script>
+<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+</body>
+</html>
